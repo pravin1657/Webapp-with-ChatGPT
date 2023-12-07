@@ -4,7 +4,7 @@ const dataTable = document.getElementById('data-table');
 
 submitButton.addEventListener('click', handleSubmit);
 
-function handleSubmit(event) { 
+function handleSubmit(event) {  
   event.preventDefault();
 
   const data = {
